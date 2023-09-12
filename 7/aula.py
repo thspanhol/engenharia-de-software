@@ -172,4 +172,30 @@ como persistência e GUI.
 Quaisquer serviços dependentes de uma tecnologia
 específica (API externa, protocolo de comunicação etc.)
 se encontram neste nível.
+
+Existem vários tipos de arquitetura de software, cada um projetado para atender a diferentes necessidades e requisitos de aplicativos. Abaixo, listo alguns dos tipos mais comuns de arquitetura de software:
+
+Arquitetura Monolítica: Neste modelo, toda a aplicação é desenvolvida como um único código-fonte e implantada como uma única unidade. É mais simples de desenvolver, implantar e testar, mas pode ser difícil de escalar e manter em projetos complexos.
+
+Arquitetura em Camadas: Divide a aplicação em camadas distintas, como a camada de apresentação, lógica de negócios e acesso a dados. Isso promove a separação de preocupações e facilita a manutenção.
+
+Arquitetura Cliente-Servidor: Divide a aplicação em duas partes principais: um cliente que interage com o usuário e um servidor que processa as solicitações do cliente e fornece recursos ou dados. Pode ser implementada em várias configurações, como cliente-servidor de duas camadas ou cliente-servidor de três camadas.
+
+Arquitetura Orientada a Serviços (SOA): Baseia-se na ideia de criar serviços independentes que podem ser acessados e combinados para atender às necessidades de negócios. Esses serviços são geralmente expostos através de interfaces de serviço e podem ser reutilizados em várias partes da aplicação.
+
+Microservices: Similar à arquitetura SOA, mas com foco em serviços menores e autônomos que podem ser implantados e escalados de forma independente. Cada microserviço é responsável por uma parte específica da funcionalidade da aplicação.
+
+Arquitetura Baseada em Eventos: Neste modelo, os componentes da aplicação se comunicam por meio de eventos assíncronos. Os eventos são gerados e consumidos para realizar ações e atualizações de estado.
+
+Arquitetura em Nuvem: Projetada para implantação em ambientes de computação em nuvem, essa arquitetura aproveita os recursos escaláveis e elásticos da nuvem para dimensionar aplicativos conforme necessário.
+
+Arquitetura de Microsserviços sem Servidor (Serverless): Neste modelo, os desenvolvedores se concentram na criação de funções independentes que são executadas em resposta a eventos, sem se preocupar com a infraestrutura subjacente.
+
+Arquitetura Orientada a Componentes: Divide a aplicação em componentes reutilizáveis que podem ser usados para construir aplicativos maiores. Isso promove a modularidade e a reutilização de código.
+
+Arquitetura Distribuída: Projetada para aplicativos que são distribuídos geograficamente ou que envolvem várias instâncias em locais diferentes. Essa arquitetura lida com os desafios de comunicação e coordenação entre os componentes distribuídos.
+
+Arquitetura em Malha (Service Mesh): Introduz uma camada de infraestrutura para gerenciar a comunicação entre serviços em um ambiente de microsserviços. Isso ajuda a lidar com problemas como descoberta de serviço, balanceamento de carga e segurança.
+
+Arquitetura Baseada em Componentes de Interface de Usuário (UI): Neste modelo, a UI é dividida em componentes reutilizáveis que podem ser combinados para criar interfaces de usuário mais complexas.
 '''
